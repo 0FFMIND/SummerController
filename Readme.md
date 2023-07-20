@@ -7,7 +7,7 @@ Problem: Cannot link Quest2 to PC(Running Unity platform)
 -2023/7/19-    
 Tasks done:    
 · Problem Solved: Unauthorization problem, reset VR hardware device, and solve.   
-https://github.com/0FFMIND/SummerController/blob/main/VRcube_7_20.jpg
+https://github.com/0FFMIND/SummerController/blob/main/VRcube_7_20.jpg      
 · ARM model source link: https://github.com/cambel/ur3/tree/noetic-devel/ur3_description   
 Unity Package Added: URDF package (https://github.com/Unity-Technologies/URDF-Importer) Then we could import Robot model from URDF   
 · Create new folder called URDF to import ARM model into Unity   
