@@ -30,3 +30,4 @@ rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\fmauch_universal_rob
 -2023/7/21-     
 Demo videos:    
 https://github.com/0FFMIND/SummerController/blob/main/Unity_simu_7_21.mp4
+https://github.com/0FFMIND/SummerController/blob/main/2023_7_21VRcontrol.mp4
