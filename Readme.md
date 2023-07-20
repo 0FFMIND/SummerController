@@ -1,12 +1,9 @@
 -2023/7/18-     
 Tasks: Initialize Project Settings   
-Unity Version-2020.3.20f1c1(with 3 Plug-ins   
-OpenXR Plugin   
-XR Interaction Tookit   
-XR Plugin Management   
-)   
+Unity Version-2020.3.20f1c1(with 3 Plug-ins：OpenXR Plugin，XR Interaction Tookit and XR Plugin Management)   
 Oculus Quest2(Android Platform)      
 Problem: Cannot link Quest2 to PC(Running Unity platform)    
+***
 -2023/7/19-    
 Tasks done:    
 · Problem Solved: Unauthorization problem, reset VR hardware device, and solve.   
@@ -17,6 +14,7 @@ Problem: ARM file is .xacro, and needs to be converted into .urdf form
 Solved: Run ROS command to convert Xacro to URDF,   
 Use VMware workstation to create new ubuntu virtual machine,    
 username: offmind password: 020509, with c++ added.(disposal)   
+***
 -2023/7/20-      
 Tasks done:   
 · New Solution: Add Chocolately and install ROS noetic to Win10, create ROS.exe to run ROS command line in windows :   
@@ -27,6 +25,7 @@ Solved: Source files from github use new one:https://github.com/nLinkAS/fmauch_u
 · run ROS command line again:    
 rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.urdf C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.xacro    
 · Put model ur3e.urdf file into Unity (successfully!)    
+***
 -2023/7/21-     
 Demo videos:    
 
