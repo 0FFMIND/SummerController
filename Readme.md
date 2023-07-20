@@ -22,11 +22,10 @@ rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\ur3-noetic-devel\ur3
 For all urdf.xacro files   
 Meet new problem: Some urdf.xacro files cannot transform into .xacro for error parameter   
 Solved: Source files from github use new one:https://github.com/nLinkAS/fmauch_universal_robot/tree/calibration_devel   
-· run ROS command line again:    
+· Run ROS command line again:    
 rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.urdf C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.xacro    
 · Put model ur3e.urdf file into Unity (successfully!)    
 ***
 -2023/7/21-     
 Demo videos:    
-
-
+https://github.com/0FFMIND/SummerController/blob/main/Unity_simu_7_21.mp4
