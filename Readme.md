@@ -39,7 +39,7 @@ https://github.com/0FFMIND/SummerController/blob/main/7_21_VRHandControlRbt.mp4
 With oral introduction:   
 https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4   
 ***
--2023/7/24-      
+-2023/7/24-     
 · Next: Inverse Kinematics should be added to robotic ARM (IK).    
 · Running a Linux image in Windows and having a ROS connection with Unity, Windows Subsystem for Linux (WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
 · PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then username: offmind login with password 0*****      
@@ -47,3 +47,6 @@ https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4
 %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service docker *      
 %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service cron *       
 Then create wslservices.bat in win+R and type shell:startup that can have docker start and cron start     
+***
+-2023/7/25-      
+· Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git#v0.1.2 for communication with ROS moveIt
