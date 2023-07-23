@@ -3,9 +3,9 @@
 ***
 -2023/7/18-     
 Tasks: Initialize Project Settings   
-Unity Version-2020.3.20f1c1(with 3 Plug-ins：OpenXR Plugin，XR Interaction Tookit and XR Plugin Management)   
+Unity Version-2020.3.20f1c1 (with 3 Plug-ins：OpenXR Plugin，XR Interaction Tookit and XR Plugin Management)   
 Oculus Quest2(Android Platform)      
-Problem: Cannot link Quest2 to PC(Running Unity platform)    
+Problem: Cannot link Quest2 to PC (Running Unity platform)    
 ***
 -2023/7/19-    
 Tasks done:    
@@ -39,10 +39,10 @@ https://github.com/0FFMIND/SummerController/blob/main/7_21_VRHandControlRbt.mp4
 With oral introduction:   
 https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4   
 ***
--2023/7/24-
-· Improvement: Inverse Kinematics should be added to robotic ARM(IK).    
-· For Running Linux image in Windows and have ROS connection with Unity, Windows Subsystem for Linux(WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
-· Windows PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then offmind login with password 0*****      
+-2023/7/24-      
+· Next: Inverse Kinematics should be added to robotic ARM (IK).    
+· Running a Linux image in Windows and having a ROS connection with Unity, Windows Subsystem for Linux (WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
+· PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then username: offmind login with password 0*****      
 · Linux command: sudo vim /etc/sudoers --> Shift + I (Edit) --> Esc --> :wq! (save and exit), add lines:      
 %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service docker *      
 %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service cron *       
