@@ -15,9 +15,9 @@ https://github.com/0FFMIND/SummerController/blob/main/7_20_UnityCube2VR.jpg
 Unity Package Added: URDF package (https://github.com/Unity-Technologies/URDF-Importer) Then we could import Robot model from URDF   
 · Create new folder called URDF to import ARM model into Unity   
 Problem: ARM file is .xacro, and needs to be converted into .urdf form  
-Solved: Run ROS command to convert Xacro to URDF,   
+~~Solved: Run ROS command to convert Xacro to URDF,   
 Use VMware workstation to create new ubuntu virtual machine,    
-username: offmind password: 0*****, with c++ added.(disposal)   
+username: offmind password: 0*****, with c++ added.~~ (Discarded)   
 ***
 -2023/7/20-      
 Tasks done:   
