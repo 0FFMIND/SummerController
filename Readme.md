@@ -1,4 +1,5 @@
-# THE SOURCE CODE was intented to be PRIVATE, only process recorded.
+# THE SOURCE CODE was intented to be PRIVATE     
+-only process recorded-    
 ***
 -2023/7/18-     
 Tasks: Initialize Project Settings   
