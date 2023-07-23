@@ -1,4 +1,4 @@
-THE SOURCE CODE was intented to be PRIVATE, only process recorded.
+#THE SOURCE CODE was intented to be PRIVATE, only process recorded.
 ***
 -2023/7/18-     
 Tasks: Initialize Project Settings   
@@ -24,7 +24,7 @@ Tasks done:
 rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\ur3-noetic-devel\ur3_description\urdf\ur3.urdf C:\opt\ros\noetic\x64\share\ur3-noetic-devel\ur3_description\urdf\ur3.urdf.xacro    
 For all urdf.xacro files   
 Meet new problem: Some urdf.xacro files cannot transform into .xacro for error parameter   
-Solved: Source files from github use new one:https://github.com/nLinkAS/fmauch_universal_robot/tree/calibration_devel   
+Solved: Source files from github use new one:      https://github.com/nLinkAS/fmauch_universal_robot/tree/calibration_devel   
 · Run ROS command line again:    
 rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.urdf C:\opt\ros\noetic\x64\share\fmauch_universal_robot-calibration_devel\ur_description\urdf\ur3e.xacro    
 · Put model ur3e.urdf file into Unity (successfully!)    
@@ -40,4 +40,9 @@ https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4
 ***
 -2023/7/24-
 · Improvement: Inverse Kinematics should be added to robotic ARM(IK).    
-· For Running Linux image in Windows and have ROS connection with Unity, WSL is chosen.
+· For Running Linux image in Windows and have ROS connection with Unity, Windows Subsystem for Linux(WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
+· Windows PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then offmind login with password 0*****      
+· Linux command: sudo vim /etc/sudoers --> Shift + I (Edit) --> Esc --> :wq! (save and exit), add lines:      
+%sudo ALL=(ALL) NOPASSWD: /usr/sbin/service docker *      
+%sudo ALL=(ALL) NOPASSWD: /usr/sbin/service cron *       
+Then create wslservices.bat in win+R and type shell:startup that can have docker start and cron start     
