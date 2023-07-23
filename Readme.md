@@ -1,4 +1,5 @@
-The source code was intented to be closed, only process recorded.
+THE SOURCE CODE was intented to be PRIVATE, only process recorded.
+***
 -2023/7/18-     
 Tasks: Initialize Project Settings   
 Unity Version-2020.3.20f1c1(with 3 Plug-ins：OpenXR Plugin，XR Interaction Tookit and XR Plugin Management)   
