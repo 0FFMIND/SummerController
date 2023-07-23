@@ -1,3 +1,4 @@
+The source code was intented to be closed, only process recorded.
 -2023/7/18-     
 Tasks: Initialize Project Settings   
 Unity Version-2020.3.20f1c1(with 3 Plug-ins：OpenXR Plugin，XR Interaction Tookit and XR Plugin Management)   
@@ -7,7 +8,7 @@ Problem: Cannot link Quest2 to PC(Running Unity platform)
 -2023/7/19-    
 Tasks done:    
 · Problem Solved: Unauthorization problem, reset VR hardware device, and solve.   
-https://github.com/0FFMIND/SummerController/blob/main/VRcube_7_20.jpg      
+https://github.com/0FFMIND/SummerController/blob/main/7_20_UnityCube2VR.jpg      
 · ARM model source link: https://github.com/cambel/ur3/tree/noetic-devel/ur3_description   
 Unity Package Added: URDF package (https://github.com/Unity-Technologies/URDF-Importer) Then we could import Robot model from URDF   
 · Create new folder called URDF to import ARM model into Unity   
@@ -29,5 +30,10 @@ rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\fmauch_universal_rob
 ***
 -2023/7/21-     
 Demo videos:    
-https://github.com/0FFMIND/SummerController/blob/main/Unity_simu_7_21.mp4
-https://github.com/0FFMIND/SummerController/blob/main/2023_7_21VRcontrol.mp4
+https://github.com/0FFMIND/SummerController/blob/main/7_21_UnitySimuRobot.mp4
+https://github.com/0FFMIND/SummerController/blob/main/7_21_VRHandControlRbt.mp4
+***
+-2023/7/22-   
+With oral introduction:   
+https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4   
+***
