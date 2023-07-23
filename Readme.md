@@ -16,7 +16,7 @@ Unity Package Added: URDF package (https://github.com/Unity-Technologies/URDF-Im
 Problem: ARM file is .xacro, and needs to be converted into .urdf form  
 Solved: Run ROS command to convert Xacro to URDF,   
 Use VMware workstation to create new ubuntu virtual machine,    
-username: offmind password: 020509, with c++ added.(disposal)   
+username: offmind password: 0*****, with c++ added.(disposal)   
 ***
 -2023/7/20-      
 Tasks done:   
@@ -38,3 +38,6 @@ https://github.com/0FFMIND/SummerController/blob/main/7_21_VRHandControlRbt.mp4
 With oral introduction:   
 https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4   
 ***
+-2023/7/24-
+· Improvement: Inverse Kinematics should be added to robotic ARM(IK).    
+· For Running Linux image in Windows and have ROS connection with Unity, WSL is chosen.
