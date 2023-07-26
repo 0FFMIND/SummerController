@@ -15,13 +15,13 @@ https://github.com/0FFMIND/SummerController/blob/main/7_20_UnityCube2VR.jpg
 Unity Package Added: URDF package (https://github.com/Unity-Technologies/URDF-Importer) Then we could import Robot model from URDF   
 · Create new folder called URDF to import ARM model into Unity   
 Problem: ARM file is .xacro, and needs to be converted into .urdf form  
-~~Solved: Run ROS command to convert Xacro to URDF,   
+Solved: Run ROS command to convert Xacro to URDF,   
 Use VMware workstation to create new ubuntu virtual machine,    
-username: offmind password: 0*****, with c++ added.~~ (Discarded)   
+username: offmind password: 0*****, with c++ added. 
 ***
 -2023/7/20-      
 Tasks done:   
-· New Solution: Add Chocolately and install ROS noetic to Win10, create ROS.exe to run ROS command line in windows :   
+· New Solution(in Windows, more convenience): Add Chocolately and install ROS noetic to Win10, create ROS.exe to run ROS command line in windows :   
 rosrun xacro xacro --inorder -o C:\opt\ros\noetic\x64\share\ur3-noetic-devel\ur3_description\urdf\ur3.urdf C:\opt\ros\noetic\x64\share\ur3-noetic-devel\ur3_description\urdf\ur3.urdf.xacro    
 For all urdf.xacro files   
 Meet new problem: Some urdf.xacro files cannot transform into .xacro for error parameter   
@@ -41,8 +41,8 @@ https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4
 ***
 -2023/7/24-     
 · Next: Inverse Kinematics should be added to robotic ARM (IK).    
-· Running a Linux image in Windows and having a ROS connection with Unity
-~~· Windows Subsystem for Linux (WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
+· Running a Linux image in Windows and having a ROS connection with Unity    
+~~ · Windows Subsystem for Linux (WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
 PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then username: offmind login with password 0*****      
 · Linux command: sudo vim /etc/sudoers --> Shift + I (Edit) --> Esc --> :wq! (save and exit), add lines:      
 %sudo ALL=(ALL) NOPASSWD: /usr/sbin/service docker *      
@@ -50,5 +50,5 @@ PC needs to install Windows Insider Preview Builds（Successfully）. For using 
 Then create wslservices.bat in win+R and type shell:startup that can have docker start and cron start~~（Discarded）     
 ***
 -2023/7/25-      
-· Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS moveIt      
-· 
+· Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS moveIt    
+· For ROS Image, this project use VMstation Ubuntu ROS-noetic image(In 2023/7/19, new Virtual machine is created with ROS noetic added. Errors solution: https://zhuanlan.zhihu.com/p/627763469 https://blog.csdn.net/qq_46106285/article/details/120982412)    
