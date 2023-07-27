@@ -55,17 +55,18 @@ https://blog.csdn.net/qq_44339029/article/details/120579608)
 ***
 -2023/7/26-      
 · Virtual Machine Side: Create catkin packages (build a catkin workspace http://wiki.ros.org/catkin/Tutorials/create_a_workspace)      
-· cd ~/catkin_ws/ --> catkin_make --> source devel/setup.bash --> roslaunch ros_tcp_endpoint endpoint.launch      
+· cd ~/catkin_ws --> catkin_make (Compiling the workspace) --> source devel/setup.bash (Setting environment variables) -->  roslaunch ros_tcp_endpoint endpoint.launch      
 · Successfully: https://github.com/0FFMIND/SummerController/blob/main/7_26_ROS_endpoint.png     
 ***
 -2023/7/27-    
-<<<<<<< HEAD
 · Unity in Windows cannot have TCP connection to ROS in Virtual Machine     
 Error picture:     
-=======
-BUG    
->>>>>>> fd8c5fc6149ef9d57dc4672e799765ec4d7d8be8
-***
-tutorial link:    
-https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md     
-https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/unity_service.md     
+https://github.com/0FFMIND/SummerController/blob/main/7_27_TCP_Error.png
+https://github.com/0FFMIND/SummerController/blob/main/7_27_TCP_ErrorDifferentIp.png
+· Solved: PC and Virtual machine have different ip, and cannot use 127.0.0.1 this simple callback address to send and receive message. The ROS address in PC should be set to 192.168.163.132 (forced). For ROS terminal, it opens endpoint at ip address 0.0.0.0 to receive all package sent to this ROS system, the open port we choose to be 10000.
+· Command lines in Linux added: sudo -i --> rootuser --> echo "xxx"
+>> /home/offmind/catkin_ ws/src/CMakeLists.txt        
+run publisher.py in Linux, and subscriber in Unity.(Succssfully!)
+· Windows Video:    
+      
+***    
