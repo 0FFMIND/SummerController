@@ -46,17 +46,21 @@ https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4
 PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe~~（Discarded）     
 ***
 -2023/7/25-      
-· Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS moveIt    
+· Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS    
 · For ROS Image, this project use VMstation Ubuntu ROS-noetic image(In 2023/7/19, new Virtual machine is created with ubuntu 20.04LTS).    
 · Add ROS-noetic to offmind machine, solution link for unexpected errors:    
 · For ROS-noetic, use Ubuntu.iso 20.04 LTS, and add python3-rosdep2 to Virtual machine.      
 https://blog.csdn.net/qq_44339029/article/details/120579608)    
-· Successfully: 
+· Successfully: https://github.com/0FFMIND/SummerController/blob/main/7_25_VM_ROSterminal.png
 ***
 -2023/7/26-      
 · Virtual Machine Side: Create catkin packages (build a catkin workspace http://wiki.ros.org/catkin/Tutorials/create_a_workspace)      
 · cd ~/catkin_ws/ --> catkin_make --> source devel/setup.bash --> roslaunch ros_tcp_endpoint endpoint.launch      
-· Successfully: 
+· Successfully: https://github.com/0FFMIND/SummerController/blob/main/7_26_ROS_endpoint.png     
+***
+-2023/7/27-    
+BUG    
+***
 tutorial link:    
 https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md     
 https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/unity_service.md     
