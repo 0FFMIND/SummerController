@@ -59,8 +59,12 @@ https://blog.csdn.net/qq_44339029/article/details/120579608)
 · Successfully: https://github.com/0FFMIND/SummerController/blob/main/7_26_ROS_endpoint.png     
 ***
 -2023/7/27-    
+<<<<<<< HEAD
 · Unity in Windows cannot have TCP connection to ROS in Virtual Machine     
 Error picture:     
+=======
+BUG    
+>>>>>>> fd8c5fc6149ef9d57dc4672e799765ec4d7d8be8
 ***
 tutorial link:    
 https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md     
