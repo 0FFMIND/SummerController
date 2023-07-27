@@ -49,8 +49,14 @@ PC needs to install Windows Insider Preview Builds（Successfully）. For using 
 · Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS moveIt    
 · For ROS Image, this project use VMstation Ubuntu ROS-noetic image(In 2023/7/19, new Virtual machine is created with ubuntu 20.04LTS).    
 · Add ROS-noetic to offmind machine, solution link for unexpected errors:    
-· For ROS-noetic, use Ubuntu.iso 20.04 LTS（Successfully!https://github.com/0FFMIND/SummerController/blob/main/7_25_VM-ROSterminal.png）  
+· For ROS-noetic, use Ubuntu.iso 20.04 LTS, and add python3-rosdep2 to Virtual machine.      
+https://blog.csdn.net/qq_44339029/article/details/120579608)    
+· Successfully: 
 ***
 -2023/7/26-      
+· Virtual Machine Side: Create catkin packages (build a catkin workspace http://wiki.ros.org/catkin/Tutorials/create_a_workspace)      
+· cd ~/catkin_ws/ --> catkin_make --> source devel/setup.bash --> roslaunch ros_tcp_endpoint endpoint.launch      
+· Successfully: 
+tutorial link:    
 https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md     
 https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/unity_service.md     
