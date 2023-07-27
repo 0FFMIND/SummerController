@@ -43,12 +43,15 @@ https://github.com/0FFMIND/SummerController/blob/main/7_22_FirstWeekDemo.mp4
 · Next: Inverse Kinematics should be added to robotic ARM (IK).    
 · Running a Linux image in Windows and having a ROS connection with Unity    
 ~~· Windows Subsystem for Linux (WSL) is chosen.   https://github.com/0FFMIND/SummerController/blob/main/Images/WSL2_Function.png     
-PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe --> then username: offmind login with password 0*****      
-· Linux command: sudo vim /etc/sudoers --> Shift + I (Edit) --> Esc --> :wq! (save and exit), add lines:      
-%sudo ALL=(ALL) NOPASSWD: /usr/sbin/service docker *      
-%sudo ALL=(ALL) NOPASSWD: /usr/sbin/service cron *       
-Then create wslservices.bat in win+R and type shell:startup that can have docker start and cron start~~（Discarded）     
+PC needs to install Windows Insider Preview Builds（Successfully）. For using Linux subsystem in win10, we need to open PowerShell with administration, and type wsl.exe~~（Discarded）     
 ***
 -2023/7/25-      
 · Unity Side: Add new package https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector for communication with ROS moveIt    
-· For ROS Image, this project use VMstation Ubuntu ROS-noetic image(In 2023/7/19, new Virtual machine is created with ROS noetic added. Errors solution: https://zhuanlan.zhihu.com/p/627763469 https://blog.csdn.net/qq_46106285/article/details/120982412)    
+· For ROS Image, this project use VMstation Ubuntu ROS-noetic image(In 2023/7/19, new Virtual machine is created with ubuntu 20.04LTS).    
+· Add ROS-noetic to offmind machine, solution link for unexpected errors:    
+· For ROS-noetic, use Ubuntu.iso 20.04 LTS（Successfully! ）  
+***
+-2023/7/26-      
+tutorial link:    
+https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md     
+https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/unity_service.md     
