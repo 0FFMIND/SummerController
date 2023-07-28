@@ -67,6 +67,9 @@ https://github.com/0FFMIND/SummerController/blob/main/7_27_TCP_ErrorDifferentIp.
 · Command lines in Linux added: sudo -i --> rootuser --> echo "xxx"
 >> /home/offmind/catkin_ ws/src/CMakeLists.txt        
 run publisher.py in Linux, and subscriber in Unity.(Succssfully!)
-· Windows Video:    
-      
+· Windows Video:https://github.com/0FFMIND/SummerController/blob/main/7_27_Unity_SimuCube.mp4    
 ***    
+-2023/7/28-    
+VR Demo video:    
+With oral introduction:    
+***
