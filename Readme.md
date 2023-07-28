@@ -65,7 +65,7 @@ https://github.com/0FFMIND/SummerController/blob/main/7_27_TCP_Error.png
 https://github.com/0FFMIND/SummerController/blob/main/7_27_TCP_ErrorDifferentIp.png
 · Solved: PC and Virtual machine have different ip, and cannot use 127.0.0.1 this simple callback address to send and receive message. The ROS address in PC should be set to 192.168.163.132 (forced). For ROS terminal, it opens endpoint at ip address 0.0.0.0 to receive all package sent to this ROS system, the open port we choose to be 10000.
 · Command lines in Linux added: sudo -i --> rootuser --> echo "xxx" 
-> > /home/offmind/catkin_ ws/src/CMakeLists.txt        
+’>‘> /home/offmind/catkin_ ws/src/CMakeLists.txt        
 run publisher.py in Linux, and subscriber in Unity.(Succssfully!)
 · Windows Video:https://github.com/0FFMIND/SummerController/blob/main/7_27_Unity_SimuCube.mp4    
 ***    
