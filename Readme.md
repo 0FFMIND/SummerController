@@ -88,4 +88,8 @@ Add moveit to ROS (in Virtual Machine) command : sudo apt-get update && sudo apt
 · Make connection to Unity moveit and ROS moveit(with TCP connection), and successfully, with Unity machine to be publisher and publish basic info to ROS subsriber, and new UI :https://github.com/0FFMIND/SummerController/blob/main/8_1_MoveitTCP_Connection.png           
 ***
 -2023/8/2-     
-· Update new UI panel control Unity ur3e model, and the updated script runs succussfully:
+· Update new UI panel and update the UI panel control for Unity ur3e model, and the updated script runs succussfully:       
+https://github.com/0FFMIND/SummerController/blob/main/8_2_UIPanel_Script.cs     
+https://github.com/0FFMIND/SummerController/blob/main/8_2_NewUI_panel.png     
+***
+-2023/8/3-    
