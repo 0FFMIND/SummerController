@@ -78,11 +78,14 @@ run publisher.py in Linux, and subscriber in Unity.(Succssfully!)
 · Change The default joint settings in https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/pick_and_place/1_urdf.md      
 · Stiffness -> 10000, Damping -> 100, Force Limit -> 1000, Speed -> 30, Torque --> 100, Acceleration -> 10.     
 · Add Moveit message package to Unity Side: https://github.com/ros-planning/moveit_msgs    
+***
 -2023/8/1-   
 · Add all joint in ur3e （Unity）to Moveit config: public static readonly string[] LinkNames =
         {"base_link/base_link_inertia/shoulder_link", "/upper_arm_link", "/forearm_link", 
         "/wrist_1_link", "/wrist_2_link", "/wrist_3_link"};      
 Add moveit to ROS (in Virtual Machine) command : sudo apt-get update && sudo apt-get upgrade -> sudo apt-get install python3-pip ros-noetic-robot-state-publisher ros-noetic-moveit ros-noetic-rosbridge-suite ros-noetic-joy ros-noetic-ros-control ros-noetic-ros-controllers -> sudo -H pip3 install rospkg jsonpickle (Successfully
 ！)      
-· Make connection to Unity moveit and ROS moveit(with TCP connection), and successfully, with Unity machine to be publisher and publish basic info to ROS subsriber:      
+· Make connection to Unity moveit and ROS moveit(with TCP connection), and successfully, with Unity machine to be publisher and publish basic info to ROS subsriber, and new UI :https://github.com/0FFMIND/SummerController/blob/main/8_1_MoveitTCP_Connection.png           
+***
 -2023/8/2-     
+· Update new UI panel control Unity ur3e model, and the updated script runs succussfully:
