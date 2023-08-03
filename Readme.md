@@ -93,3 +93,7 @@ https://github.com/0FFMIND/SummerController/blob/main/8_2_UIPanel_Script.cs
 https://github.com/0FFMIND/SummerController/blob/main/8_2_NewUI_panel.png     
 ***
 -2023/8/3-    
+· Continue update UI panel and for ROS moveit, errors need to be fixed.    
+https://github.com/0FFMIND/SummerController/blob/main/8_3_Updated_UIpanel.png
+https://github.com/0FFMIND/SummerController/blob/main/8_3_ROS_errormsg.png   
+***
