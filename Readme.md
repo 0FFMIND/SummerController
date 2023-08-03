@@ -91,9 +91,10 @@ Add moveit to ROS (in Virtual Machine) command : sudo apt-get update && sudo apt
 · Update new UI panel and update the UI panel control for Unity ur3e model, and the updated script runs succussfully:       
 https://github.com/0FFMIND/SummerController/blob/main/8_2_UIPanel_Script.cs     
 https://github.com/0FFMIND/SummerController/blob/main/8_2_NewUI_panel.png     
+· Continue update UI panel and for ROS moveit, errors need to be fixed.    
+https://github.com/0FFMIND/SummerController/blob/main/8_2_Updated_UIpanel.png
+https://github.com/0FFMIND/SummerController/blob/main/8_2_ROS_errormsg.png   
 ***
 -2023/8/3-    
-· Continue update UI panel and for ROS moveit, errors need to be fixed.    
-https://github.com/0FFMIND/SummerController/blob/main/8_3_Updated_UIpanel.png
-https://github.com/0FFMIND/SummerController/blob/main/8_3_ROS_errormsg.png   
+
 ***
