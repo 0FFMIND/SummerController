@@ -101,12 +101,18 @@ https://github.com/0FFMIND/SummerController/blob/main/8_2_ROS_errormsg.png
 roslaunch ur3_moveit_config moveit_rviz.launch       
 but the model deploy wrong for low disk storage < 1GB, and add disk stroage: https://zhuanlan.zhihu.com/p/426690239      
 · Updated new robot meshes: https://github.com/0FFMIND/SummerController/blob/main/8_3_Updated_RobotMeshes.png    
-For wirting launch file tutorial:     https://blog.csdn.net/CH_monsy/article/details/107664893?spm=1001.2014.3001.5502    
-Some Unity and ROS Moveit! communication sample files: https://github.com/szandara/unity_moveit_connector/tree/master    
-https://github.com/szandara/unity_reachy_tutorial/tree/master     
+· ROS Moveit! config: roslaunch moveit_setup_assistant setup_assistant.launch     
+Create new Virtual Joints => fixed_base, and child link => base_link || Planning Groups named manipulator || End Effectors named moveit_ee || Controllers named manipulator_controller    
+For wirting launch file tutorial:     
+https://blog.csdn.net/CH_monsy/article/details/107664893?spm=1001.2014.3001.5502     
+· Successfully open rviz for moveit! While typing command: roslaunch ur3_moveit_config moveit_rviz.launch, new window should be open with roslaunch ur3_moveit_config demo.launch    
+https://github.com/0FFMIND/SummerController/blob/main/8_3_RViz_Successful.png
 ***
 -2023/8/4-    
 Water cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing     
+>> Some Unity and ROS Moveit! communication sample files:    
+>> https://github.com/szandara/unity_moveit_connector/tree/master    
+>> https://github.com/szandara/unity_reachy_tutorial/tree/master     
 ***
 -2023/8/5-      
 PC is in repairing     
