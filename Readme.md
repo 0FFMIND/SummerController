@@ -106,10 +106,13 @@ Create new Virtual Joints => fixed_base, and child link => base_link || Planning
 For wirting launch file tutorial:     
 https://blog.csdn.net/CH_monsy/article/details/107664893?spm=1001.2014.3001.5502     
 · Successfully open rviz for moveit! While typing command: roslaunch ur3_moveit_config moveit_rviz.launch, new window should be open with roslaunch ur3_moveit_config demo.launch    
-https://github.com/0FFMIND/SummerController/blob/main/8_3_RViz_Successful.png
+https://github.com/0FFMIND/SummerController/blob/main/8_3_RViz_Successful.png     
+· Create endpoint: roslaunch niryo_moveit part_3.launch
+· Test Command: Unity subscriber ROS publisher: rosrun unity_robotics_demo color_publisher.py      
+· Unity publisher ROS subscriber: rosrun niryo_moveit trajectory_subscriber.py
 ***
 -2023/8/4-    
-Water cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing     
+Wroater cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing     
 >> Some Unity and ROS Moveit! communication sample files:    
 >> https://github.com/szandara/unity_moveit_connector/tree/master    
 >> https://github.com/szandara/unity_reachy_tutorial/tree/master     
