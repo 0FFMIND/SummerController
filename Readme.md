@@ -96,5 +96,19 @@ https://github.com/0FFMIND/SummerController/blob/main/8_2_Updated_UIpanel.png
 https://github.com/0FFMIND/SummerController/blob/main/8_2_ROS_errormsg.png   
 ***
 -2023/8/3-    
-
+· Error solved: In Virtural machine side, run roslaunch moveit_setup_assistant setup_assistant.launch, and add moveit configure file to our ur3e, also for catkin_make before, we needed to add tf_conversion, use command: sudo apt install ros-noetic-tf-conversions.    
+· Now solve no virtual joint in SRDF, use commandline in default model: 
+roslaunch ur3_moveit_config moveit_rviz.launch       
+but the model deploy wrong for low disk storage < 1GB, and add disk stroage: https://zhuanlan.zhihu.com/p/426690239      
+· Updated new robot meshes: https://github.com/0FFMIND/SummerController/blob/main/8_3_Updated_RobotMeshes.png    
+For wirting launch file tutorial:     https://blog.csdn.net/CH_monsy/article/details/107664893?spm=1001.2014.3001.5502    
+Some Unity and ROS Moveit! communication sample files: https://github.com/szandara/unity_moveit_connector/tree/master    
+https://github.com/szandara/unity_reachy_tutorial/tree/master     
 ***
+-2023/8/4-    
+Water cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing     
+***
+-2023/8/5-      
+PC is in repairing     
+***
+-2023/8/6-     
