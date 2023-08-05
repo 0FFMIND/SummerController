@@ -106,7 +106,7 @@ Create new Virtual Joints => fixed_base, and child link => base_link || Planning
 For wirting launch file tutorial:     
 https://blog.csdn.net/CH_monsy/article/details/107664893?spm=1001.2014.3001.5502     
 · Successfully open rviz for moveit! While typing command: roslaunch ur3_moveit_config moveit_rviz.launch, new window should be open with roslaunch ur3_moveit_config demo.launch    
-https://github.com/0FFMIND/SummerController/blob/main/8_3_RViz_Successful.png     
+https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png     
 · Create endpoint: roslaunch niryo_moveit part_3.launch
 · Test Command: Unity subscriber ROS publisher: rosrun unity_robotics_demo color_publisher.py      
 · Unity publisher ROS subscriber: rosrun niryo_moveit trajectory_subscriber.py
