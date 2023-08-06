@@ -110,14 +110,11 @@ https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png
 · Create endpoint: roslaunch niryo_moveit part_3.launch
 · Test Command: Unity subscriber ROS publisher: rosrun unity_robotics_demo color_publisher.py      
 · Unity publisher ROS subscriber: rosrun niryo_moveit trajectory_subscriber.py
+· TCP launch file: https://github.com/0FFMIND/SummerController/blob/main/8_3_SimpleConnect.launch
 ***
 -2023/8/4-    
-Wroater cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing     
->> Some Unity and ROS Moveit! communication sample files:    
->> https://github.com/szandara/unity_moveit_connector/tree/master    
->> https://github.com/szandara/unity_reachy_tutorial/tree/master     
+Wroater cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing          
 ***
 -2023/8/5-      
 PC is in repairing     
 ***
--2023/8/6-     
