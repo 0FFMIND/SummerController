@@ -126,4 +126,5 @@ https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png
 · Go to central apple store for ipad repairing      
 ***
 -2023/8/8-     
-· Preparing Presentation PPT : 
+· Preparing Presentation PPT : https://github.com/0FFMIND/SummerController/blob/main/8_8_PPT_process.png     
+· Preparing Final Report : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Writing%20a%20Technical%20Report%20-%20Dr%20Oluwakayode%20Onireti.pdf      
