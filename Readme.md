@@ -113,10 +113,17 @@ https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png
 · TCP launch file: https://github.com/0FFMIND/SummerController/blob/main/8_3_SimpleConnect.launch
 ***
 -2023/8/4-    
-Wroater cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing          
+· Water cup dropped to my PC and keyboard cannot work, So I go to repair shop for repairing          
 ***
 -2023/8/5-      
-PC is in repairing     
+· PC is in repairing     
 ***
 -2023/8/6-     
+· Third week Oral demo : https://github.com/0FFMIND/SummerController/blob/main/8_6_ThirdWeek_Oral_Demo.mp4      
+· Third week VR demo : https://github.com/0FFMIND/SummerController/blob/main/8_6_ThirdWeek_VR_demo.mp4     
 ***
+-2023/8/7-      
+· Go to central apple store for ipad repairing      
+***
+-2023/8/8-     
+· Preparing Presentation PPT : 
