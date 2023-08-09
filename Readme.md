@@ -133,5 +133,6 @@ https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png
 · PPT graphs : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/TCP_system.png    
 https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Uniy_ros.png   
 · PPT document : 
-https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx      
-· PPT oral rehearsal( ahead of schedule ) : 
+https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre_ini.pptx     
+https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx
+· PPT oral rehearsal( ahead of schedule ) : https://github.com/0FFMIND/SummerController/blob/main/FourthWeek_PPT_Prepare.mp4
