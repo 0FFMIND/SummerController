@@ -136,7 +136,11 @@ https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Uniy_ros.png
 https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre_ini.pptx     
 https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx     
 · PPT oral rehearsal( ahead of schedule ) :      https://github.com/0FFMIND/SummerController/blob/main/FourthWeek_PPT_Prepare.mp4     
-· Final report writting : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Report.docx  
+· Final report writing :     https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Report.docx   
 ***
 -2023/8/10/-      
+· Final PPT :     
+https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx
+· Final report:     
+https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Report.docx   
 ***
