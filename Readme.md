@@ -130,9 +130,13 @@ https://github.com/0FFMIND/SummerController/blob/main/8_3_Rviz_Successful.png
 · Preparing Final Report : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Writing%20a%20Technical%20Report%20-%20Dr%20Oluwakayode%20Onireti.pdf      
 ***
 -2023/8/9-     
-· PPT graphs : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/TCP_system.png    
+· PPT graphs :     https://github.com/0FFMIND/SummerController/blob/main/Final_Work/TCP_system.png    
 https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Uniy_ros.png   
-· PPT document : 
+· PPT document :     
 https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre_ini.pptx     
-https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx
-· PPT oral rehearsal( ahead of schedule ) : https://github.com/0FFMIND/SummerController/blob/main/FourthWeek_PPT_Prepare.mp4
+https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Pre.pptx     
+· PPT oral rehearsal( ahead of schedule ) :      https://github.com/0FFMIND/SummerController/blob/main/FourthWeek_PPT_Prepare.mp4     
+· Final report writting : https://github.com/0FFMIND/SummerController/blob/main/Final_Work/Final_Report.docx  
+***
+-2023/8/10/-      
+***
